@@ -8,6 +8,8 @@ class CommentBox extends Component {
     this.state = {
       comments: []
     }
+
+    this.handleCommentSubmit = this.handleCommentSubmit.bind(this);
   }
 
 
